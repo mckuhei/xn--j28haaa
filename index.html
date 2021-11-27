@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>😅</title>
+</head>
+<body>
+	<script type="text/javascript">
+		setInterval(() => {
+			let pageHeight = document.body.scrollHeight;
+			let windowHeight = document.documentElement.clientHeight;
+			let scrollAvail = pageHeight - windowHeight;
+			if(scrollAvail-document.documentElement.scrollTop<100)
+				document.body.innerText+=document.body.innerText
+		})
+	</script>
+	😅
+</body>
+</html>
